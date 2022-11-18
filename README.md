@@ -2,7 +2,7 @@
 > npm install fb-tools
 
 # Credits:
-[Milan](https://github.com/Kaysil/facebook-tools)
+[Milan](https://github.com/milan-says/fb-tools)
 
    <p>Download the video and find the Facebook Uid using the profile link.</p>
    <p>Download video and find facebook Uid by profile link"</p>
@@ -15,7 +15,7 @@
 (async () => {
 
  const toolfb = require("fb-tools");
- var id = await toolfb.findUid("https://facebook.com/ntkhang.9831");
+ var id = await toolfb.findUid("https://m.facebook.com/isthislovedaddy");
  console.log(id);
 
 })();
@@ -24,7 +24,7 @@
 
 ```javascript
 const toolfb = require("fb-tools");
-toolfb.findUid("https://m.facebook.com/ntkhang.9831")
+toolfb.findUid("https://m.facebook.com/isthislovedaddy")
   .then(function (item) {
 console.log(item);
 });
